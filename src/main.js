@@ -2,6 +2,7 @@
 // The Client API can be used here. Learn more: gridsome.org/docs/client-api
 
 import DefaultLayout from '~/layouts/Default.vue'
+import BlogLayout from '~/layouts/BlogLayout.vue'
 import '~/assets/scss/globals.scss'
 import Vuex from 'vuex'
 require('typeface-source-sans-pro')
@@ -11,6 +12,7 @@ export default function (Vue, { router, head, isClient, appOptions }) {
 
   // Set default layout as a global component
   Vue.component('Layout', DefaultLayout)
+  Vue.component('BlogLayout', BlogLayout)
 
   // Add attributes to HTML tag
   head.htmlAttrs = { lang: 'en' }
