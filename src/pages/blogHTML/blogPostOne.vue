@@ -2,6 +2,7 @@
   <Layout :sidebar="true">
     <h1>Blog Post One</h1>
     <p>This is a test</p>
+    <img src="./cv.png" alt="blog post one image">
   </Layout>
 </template>
 
